@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/debcc8e04a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="weatherCSS.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <title>AORA</title>
+  </head>
+  <body>
+    <div class="Whole">
+      <div class="sub">
+        <div class="col1">
+          <i class="fas fa-cloud"></i>
+          aora
+          <br></br>
+          <div class="button-1">
+            <button class="button1">
+              <i class="fas fa-database" aria-hidden="true"></i>
+              Dashboard
+            </button>
+            <br>
+            <button class="button1">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              Location
+            </button>
+            <br>
+            <button class="button1">
+              <i class="fa fa-map" aria-hidden="true"></i>
+              Map
+            </button>
+            <br>
+            <button class="button1">
+              <i class="fa fa-cog" aria-hidden="true"></i>
+              Settings
+            </button>
+            <br>
+            <div class="button-logout">
+              <button class="button1">
+                <i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>
+                Logout
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="2col">
+          <div class="2heading">
+            <p id="textsection2" class="text2">Today's Highlights</p>
+            <button id="menu"><i class="fa fa-ellipsis-h  text-2"></i></button>
+            <div class="section-2-item">
+                <p><b>UV  Index</b></p>
+                <img src="UV.png" alt="UV INDEX IS 5" id="uv_index">
+            </div>
+            <div class="section-2-item">
+                <p><b>Sunrise & Sunset</b></p>
+                <i class="fa fa-arrow-circle-up fa-2x  box2"></i><span class="box2-text">5:39 AM</span>
+                <p class="sub-sunrise">-1m 46s</p>
+
+                <i class="fa fa-arrow-circle-down fa-2x  box2"></i><span class="box2-text">8:24 PM</span>
+                <p class="sub-sunrise">+2m 22s</p>
+            </div>
+            <div class="section-2-item">
+                <p><b>Wind Status</b></p>
+                <p id="wind">16 <span id="metric">km/h</span></p>
+                <p id="sub-visibility">WSW</p>
+            </div>
+            <div class="section-2-item">
+                <p><b>Visibility</b></p>
+                <p id="Visibility">12 km</p>
+
+                <p id="sub-visibility">Average</p>
+            </div>
+            <div class="section-2-item">
+                <p><b>Humidity</b></p>
+                <p id="wind">40<span id="metric"> %</span></p>
+                <p id="sub-visibility">Normal</p>
+            </div>
+            <div class="section-2-item">
+                <p><b>Air Quality</b></p>
+                <p id="wind">33</p>
+                <p id="sub-visibility">Good</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+            <div class="section-3">
+                <i class="fa fa-bell bell-icon" aria-hidden="true"></i>
+                <span id="username">Michael Garcia</span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <div class="line2">
+                    <p><b><span id="city">The Hague,</span></b><i class="fa fa-ellipsis-h" aria-hidden="true"></i></p>
+                    <p id="country">Netherlands</p>
+                    <p id="date">Mon,19 Aug</p>
+
+                </div>
+                <div class="line-3">
+                    <h3>Today</h3>
+                </div>
+                <div class="line-4">
+                    <i class="fa fa-sun-o fa-3x" aria-hidden="true"></i><span id="temp">19<sup>o<sub>C</sub></sup></span>
+                    <br><br>
+                </div>
+
+                <div class="line-5">
+                    <img src="weather-1.png" alt="wind-speed" class="weathers">
+                    <img src="weather-2.png" alt="humidity" class="weathers">
+                    <img src="weather-3.png" alt="rainfall" class="weathers">
+                    <pre>16km/h      40%       10%</pre>
+                </div>
+
+                <div class="line-6">
+                    <p id="line6text">Today<span id="line6righttext">Next 4 Days</span></p>
+                </div>
+
+                <div class="line-7">
+                    <div class="line-7-items">
+                        <p id="time"><b>Now</b></p>
+                        <p>19&deg;C</p>
+                    </div>
+                    <div class="line-7-items">
+                        <p id="time"><b>11:00</b></p>
+                        <p>19&deg;C</p>
+                    </div>
+                    <div class="line-7-items">
+                        <p id="time"><b>12:00</b></p>
+                        <p>19&deg;C</p>
+                    </div>
+                    <div class="line-7-items">
+                        <p id="time"><b>13:00</b></p>
+                        <p>19&deg;C</p>
+                    </div>
+                </div>
+
+
+      </div>
+
+    </div>
+  </body>
+</html>
